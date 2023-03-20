@@ -10,4 +10,6 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({ SubstituteAllTest.class })
 public class SubstituteAllTestSuite {
 
+	
+	
 }

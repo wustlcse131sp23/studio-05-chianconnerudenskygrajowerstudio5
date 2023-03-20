@@ -19,7 +19,6 @@ public class DistanceBetweenTest {
 	 */
 	@Test
 	public void testIdenticalPoints() {
-		// The following is divided on three lines to make each part clearer.  See the comments on each
 		assertEquals(0.0, // The value we expect to get (to pass the test)
 				Methods.distanceBetween(1.0, 0.0, 1.0, 0.0), // The thing to test
 				1e-5); // This uses double, which are imprecise, so
@@ -58,10 +57,10 @@ public class DistanceBetweenTest {
 	 * Test the distance between (0,0) and (30,40) is ~50.0
 	 */
 	@Test
-	public void testPointsD() {
+	public void testPointsD () {
 		// TODO: FIXME!  This test has an error
 		// Test that the distance between (0,0) and (30,40) is 50.0 (order of parameters matters!)
-		assertEquals(50.0, Methods.distanceBetween(0.0, 30.0, 0.0, 40.0), 1e-5);
+		assertEquals(50.0, Methods.distanceBetween(0.0, 0.0, 30.0, 40.0), 1e-5);
 	}
 
 }
